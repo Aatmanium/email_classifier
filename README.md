@@ -7,7 +7,7 @@ A machine learning project that classifies emails/messages as **Spam** or **Ham 
 - Scikit-learn
 
 TF-IDF stands for:
-Term Frequency – Inverse Document Frequency
+Term Frequency – Inverse Document Frequency.
 It is a method used in Natural Language Processing (NLP) to convert text into numbers so that machine learning models can understand it.
 
 ---
