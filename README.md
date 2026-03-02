@@ -18,7 +18,7 @@ The model is trained on labeled email data and achieves:
 - **Test Accuracy:** ~96.0%
 
 ---
-- 
+
 ### Machine Learning Concepts
 - Text Vectorization (TF-IDF)
 - Supervised Learning
