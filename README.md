@@ -55,16 +55,16 @@ email_classifier
 
 ### 1. Clone the Repository
 
-git clone https://github.com/YOUR_USERNAME/email_classifier.git
+git clone https://github.com/Aatmanium/email_classifier.git
 cd email_classifier
 
----
+
 
 ### 2. Install Dependencies
 
 pip install -r requirements.txt
 
----
+
 
 ### 3. Train the Model
 
@@ -72,7 +72,7 @@ python src/train.py
 
 This will train the model and save it inside the `models/` folder.
 
----
+
 
 ### 4. Test the Model
 
@@ -80,7 +80,7 @@ python src/test.py
 
 Enter any email message when prompted to check if it is Spam or Ham.
 
-
+---
 ### Example:
 Enter your email/message: Lol your always so convincing.
 <br> --> Ham Mail ✅
