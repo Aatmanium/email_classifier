@@ -51,17 +51,33 @@ email_classifier
 
 ---
 
-## Quick Start
+## 🚀 Quick Start
+# 1. Clone the Repository
 
-### Train the Model
+git clone https://github.com/YOUR_USERNAME/email_classifier.git
+cd email_classifier
 
-Run the training script:
+---
+# 2. Install Dependencies
+
+pip install -r requirements.txt
+
+---
+
+# 3. Train the Model
+
 python src/train.py
 
-After training, run:
+This will train the model and save it inside the `models/` folder.
+
+---
+# 4. Test the Model
+
 python src/test.py
 
+Enter any email message when prompted to check if it is Spam or Ham.
 
-Example:
+
+### Example:
 Enter your email/message: Lol your always so convincing.
 <br> --> Ham Mail ✅
