@@ -32,7 +32,7 @@ The model is trained on labeled email data and achieves:
 ---
 
 ## Project Structure
-email_classifier
+email_classifier/
 │
 ├── data/
 │ └── mail_data.csv
