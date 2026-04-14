@@ -84,3 +84,15 @@ Enter any email message when prompted to check if it is Spam or Ham.
 ### Example:
 Enter your email/message: Lol your always so convincing.
 <br> --> Ham Mail 
+
+---------
+## Future Improvements
+
+- Improve dataset size
+- Try deep learning models
+- Build a web interface
+
+## Author
+
+Aatmanium
+(Student ML Project)
