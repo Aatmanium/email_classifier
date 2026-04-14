@@ -51,7 +51,7 @@ email_classifier
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the Repository
 
@@ -83,4 +83,4 @@ Enter any email message when prompted to check if it is Spam or Ham.
 ---
 ### Example:
 Enter your email/message: Lol your always so convincing.
-<br> --> Ham Mail ✅
+<br> --> Ham Mail 
