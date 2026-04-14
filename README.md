@@ -29,9 +29,14 @@ The model is trained on labeled email data and achieves:
 - Logistic Regression
 - Train/Test Split
 - Model Evaluation (Accuracy)
+
 ---
 
 ## Project Structure
+
+```
+
+
 email_classifier/
 │
 ├── data/
@@ -49,7 +54,7 @@ email_classifier/
 └── README.md
 
 
----
+```
 
 ## Quick Start
 
