@@ -1,103 +1,95 @@
-# Email Spam Classifier (Machine Learning)
+# Email Spam Classifier
 
-A machine learning project that classifies emails/messages as **Spam** or **Ham (Not Spam)** using:
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
-- TF-IDF Vectorization
-- Logistic Regression
+A supervised machine learning project that classifies text messages as **spam** or **ham** using TF-IDF vectorization and Logistic Regression.
+
+## Project Highlights
+
+- Built an end-to-end text classification pipeline in Python.
+- Converted raw email text into numerical features with TF-IDF.
+- Trained and evaluated a Logistic Regression model.
+- Saved the trained model and vectorizer for repeatable predictions.
+- Achieved approximately **96% test accuracy** on the sample dataset.
+
+## Tech Stack
+
+- Python
+- Pandas
 - Scikit-learn
-
-TF-IDF stands for:
-Term Frequency – Inverse Document Frequency.
-It is a method used in Natural Language Processing (NLP) to convert text into numbers so that machine learning models can understand it.
-
----
-
-## Project Overview
-
-This project builds a text classification model that can detect whether an email is spam or not spam.
-
-The model is trained on labeled email data and achieves:
-
-- **Training Accuracy:** ~96.7%
-- **Test Accuracy:** ~96.0%
-
----
-
-### Machine Learning Concepts
-- Text Vectorization (TF-IDF)
-- Supervised Learning
+- TF-IDF Vectorizer
 - Logistic Regression
-- Train/Test Split
-- Model Evaluation (Accuracy)
-
----
+- Joblib
 
 ## Project Structure
 
-```
-
-
+```text
 email_classifier/
-│
-├── data/
-│ └── mail_data.csv
-│
-├── models/
-│ ├── model.pkl
-│ └── vectorizer.pkl
-│
-├── src/
-│ ├── train.py
-│ └── test.py
-│
-├── requirements.txt
-└── README.md
-
-
+|-- data/
+|   `-- mail_data.csv
+|-- models/
+|   |-- model.pkl
+|   `-- vectorizer.pkl
+|-- src/
+|   |-- train.py
+|   `-- test.py
+|-- requirements.txt
+`-- README.md
 ```
 
-## Quick Start
+## Getting Started
 
-### 1. Clone the Repository
+Clone the repository:
 
+```bash
 git clone https://github.com/Aatmanium/email_classifier.git
 cd email_classifier
+```
 
+Install dependencies:
 
-
-### 2. Install Dependencies
-
+```bash
 pip install -r requirements.txt
+```
 
+Train the model:
 
-
-### 3. Train the Model
-
+```bash
 python src/train.py
+```
 
-This will train the model and save it inside the `models/` folder.
+Run an interactive prediction:
 
-
-
-### 4. Test the Model
-
+```bash
 python src/test.py
+```
 
-Enter any email message when prompted to check if it is Spam or Ham.
+Example:
 
----
-### Example:
-Enter your email/message: Lol your always so convincing.
-<br> --> Ham Mail 
+```text
+Enter your email/message: Congratulations, you won a free prize
+Spam Mail
+```
 
----------
+## Machine Learning Workflow
+
+1. Load and clean the labeled email dataset.
+2. Encode labels as spam or ham.
+3. Split the dataset into training and test sets.
+4. Transform text with TF-IDF vectorization.
+5. Train a Logistic Regression classifier.
+6. Evaluate model accuracy and save reusable artifacts.
+
 ## Future Improvements
 
-- Improve dataset size
-- Try deep learning models
-- Build a web interface
+- Add precision, recall, F1-score, and confusion matrix reporting.
+- Package prediction logic as a small web app or API.
+- Compare Logistic Regression with Naive Bayes and linear SVM.
+- Add unit tests for training and prediction utilities.
 
 ## Author
 
-Aatmanium
-(Student ML Project)
+**Aatmanium**  
+Applied AI Student | Machine Learning Enthusiast | Python Developer
